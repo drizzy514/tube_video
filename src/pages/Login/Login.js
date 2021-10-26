@@ -36,7 +36,7 @@ function Login () {
                                 formData.append("username", userName.current.value)
                                 formData.append("email", userEmail.current.value)
                                 formData.append("avatar", fileImage.current.files[0])
-                                await fetch("http://localhost:3001/login", {
+                                await fetch("https://localhost:3001/login", {
                                     method: 'POST',
                                     body: formData
                                     
