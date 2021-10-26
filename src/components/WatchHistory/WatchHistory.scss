@@ -1,0 +1,43 @@
+.history{
+    padding: 34px;
+    display: flex;
+    align-items: flex-start;
+}
+.history__content{
+    border-right: 1px solid #ccc;
+    
+}
+.history__title{
+        color: #fff;
+        text-align: center;
+        font-family: "Mulish" , sans-serif;
+
+    }
+    
+    .history__text{
+        text-align: center;
+        font-size: 18px;
+    }
+    .history__videos{
+        overflow-y: auto;
+        height: 100vh;
+    }
+
+    .history__videos-item{
+        margin-top: 30px;
+        display: flex;
+       
+        align-items: center;
+        padding-right: 50px;
+    }
+    .history__videos-title{
+        width: 300px;
+        margin-left: 40px;
+        color: #ccc;
+    }
+    .history__videos-text{
+        margin-left: 40px;
+    }
+    .history__videos-desc{
+        margin-left: 40px;
+    }

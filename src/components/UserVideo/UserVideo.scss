@@ -1,0 +1,70 @@
+.user-videos__header{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+  
+}
+.user-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.arrows{
+    display: flex;
+    align-items: center;
+    margin-left: 870px;
+    .arrow-left{
+        margin-right: 10px;
+    }
+}
+.videos-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 1260px;
+    overflow-x: auto;
+    .videos-item{
+        margin-right: 40px;
+    }
+}
+
+.video-link{
+    text-decoration: none;
+   color: #FFFFFF;
+   text-align: left;
+ 
+}
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color:#FFFFFF;
+    opacity: 0.4;
+    .video-view{
+        margin-right: 41px;
+    }
+   }
+.video-title{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+
+@media screen and (max-width:400px){
+    .user-videos__header{
+        display: none;
+    }
+    .user-videos{
+        display: none;
+    }
+    .videos-list{
+        flex-direction: column;
+    }
+}

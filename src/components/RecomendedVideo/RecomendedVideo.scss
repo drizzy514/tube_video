@@ -1,0 +1,32 @@
+.recomended-header{
+    display: flex;
+    align-items: center;
+}
+.recomended-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.arrows-btns{
+    display: flex;
+    align-items: center;
+    margin-left: 890px;
+    .arrow-left{
+        margin-right: 10px;
+    }
+}
+.video-photographer{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.autor{
+    margin-left: 373px;
+}
+@media screen and(max-width:400px) {
+    .recomended{
+        display: none;
+    }
+}

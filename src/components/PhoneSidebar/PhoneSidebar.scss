@@ -1,0 +1,29 @@
+.phone-sidebar__list{
+    display: none;
+}
+
+
+@media screen and  (max-width:400px){
+    .phone-sidebar__list{
+        width: 320px;
+        margin: 0 auto;
+        padding: 0;
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        border-top: 1px solid  #D8D8D880;
+        
+        overflow-x: auto;
+    }
+    .phone-sidebar__item{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 24px;
+        p{
+            margin: 0;
+        }
+    }
+
+}
