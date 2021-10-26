@@ -23,7 +23,7 @@ function Video (){
       
         {
             useEffect(() => {
-                fetch("http://localhost:3001/upload", {
+                fetch("https://localhost:3001/upload", {
                     method: "GET",
 
                 }).then(response => response.json())
@@ -53,7 +53,7 @@ function Video (){
                     formData.append("username", userName.current.value)
                     formData.append("content", content.current.value)
                     formData.append("video", video.current.files[0])
-                    await fetch("http://localhost:3001/upload", {
+                    await fetch("https://localhost:3001/upload", {
                         method: "POST",
                         body: formData,
                     })
@@ -101,7 +101,7 @@ function Video (){
                                 <Link to="/profile">
                                     {i.username}
                                 </Link>
-                            <video src="http://localhost:3001/upload/"  controls  width="320" height="320">
+                            <video src="https://localhost:3001/upload/"  controls  width="320" height="320">
                                 
                                      
                             </video>
