@@ -57,7 +57,7 @@
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
     .trend-list{
         flex-direction: column;
         align-items: flex-start;
@@ -72,11 +72,11 @@
         padding: 0;
     }
     .trend-content__title{
-        width: 320px;
+        width: 420px;
         font-size: 18px;
     }
     .popular-video-item{
-       width: 320px;
+       width: 420px;
        flex-direction: column;
        margin: 0;
        iframe{
